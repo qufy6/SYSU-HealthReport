@@ -12,7 +12,7 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     # 每天早上7：32开始进行申报
-    - cron:  '32 23 * * *'
+    - cron:  '42 0 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
